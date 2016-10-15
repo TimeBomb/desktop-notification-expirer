@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head><title>Chrome Desktop Notification Manager Options</title></head>
+<body>
+Enable desktop notification maximum duration control?
+<input type="checkbox" id="maxDurationEnabled">
+<br><i>If you disable this, Chrome will resort to its default behavior, likely keeping notifications visible until you close them yourself.</i>
+<br><br>
+The maximum duration a desktop notification will stay on screen:
+<br><input type="text" type="number" id="maxDuration"> seconds
+<br><br>
+Block all notifications from making sound? <input type="checkbox" id="disableSound">
+<br><br>
+<div id="status"></div>
+<br>
+<button id="save">Save</button>
+
+<script src="options.js"></script>
+</body>
+</html>

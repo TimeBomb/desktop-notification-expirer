@@ -1,0 +1,14 @@
+{
+  "name" : "Chrome Desktop Notification Manager",
+  "version" : "0.1",
+  "description" : "Allows you to view Chrome desktop notification history and take control of them by setting a maximum duration, temporarily muting them, and disabling sound.",
+   "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  },
+  "permissions": ["storage"],
+  "background": {
+  	"scripts": ["notificationProxy.js"]
+  },
+  "manifest_version": 2
+}
